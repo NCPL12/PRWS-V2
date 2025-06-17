@@ -266,7 +266,6 @@ export default function DashboardPage() {
         </Card>
       </div>
 
-      {/* Charts Section */}
       <div className="grid gap-6 md:grid-cols-2">
         {/* Approval Status Pie Chart */}
         <Card>
@@ -351,7 +350,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Trend Chart */}
-      <Card>
+      {/* <Card>
         <CardHeader>
           <CardTitle>Report Trends</CardTitle>
           <CardDescription>Monthly report submission trends</CardDescription>
@@ -383,10 +382,10 @@ export default function DashboardPage() {
             </ResponsiveContainer>
           </ChartContainer>
         </CardContent>
-      </Card>
+      </Card> */}
 
       {/* Recent Reports */}
-      <Card>
+      {/* <Card>
         <CardHeader>
           <CardTitle>Recent Reports</CardTitle>
           <CardDescription>Latest {selectedReportType} reports</CardDescription>
@@ -417,7 +416,7 @@ export default function DashboardPage() {
             </div>
           )}
         </CardContent>
-      </Card>
+      </Card> */}
     </div>
   )
 }

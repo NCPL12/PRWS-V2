@@ -453,13 +453,13 @@ export function TemplateList() {
     <div className="space-y-4">
       <div className="flex items-center justify-between">
        <div className="flex items-center space-x-2">
-        <Search className="h-4 w-4 text-muted-foreground" />
-        <Input
-          placeholder="Search templates..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="max-w-sm"
-        />
+
+       <Input
+  placeholder="Search templates... "
+  value={searchQuery}
+  onChange={(e) => setSearchQuery(e.target.value)}
+  className="max-w-sm bg-[#EDEFF3]"
+/>
       </div>
         <div className="flex items-center gap-2">
           <Button variant="outline" onClick={handleEditClick}>
@@ -467,7 +467,7 @@ export function TemplateList() {
             Edit
           </Button>
 
-          <Button onClick={() => router.push("/main/new-template")}>
+          <Button variant="blueAccent" onClick={() => router.push("/main/new-template")}>
             <Plus className="mr-2 h-4 w-4" />
             New Template
           </Button>
@@ -825,7 +825,7 @@ export function TemplateList() {
       <div>
         
       </div>
-         <BottomRightLogo />
+         {/* <BottomRightLogo /> */}
 
 
     </div>

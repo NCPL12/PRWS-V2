@@ -648,7 +648,7 @@ toast.success("Report exported successfully!");
         </Card>
         
       </div>
-               <BottomRightLogo />
+               {/* <BottomRightLogo /> */}
 
     </div>
   )

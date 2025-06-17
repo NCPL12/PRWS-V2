@@ -430,7 +430,7 @@ const formatDate = (dateInput: string | number) => {
           </DialogFooter>
         </DialogContent>
       </Dialog>
-                     <BottomRightLogo />
+                     {/* <BottomRightLogo /> */}
     </div>
   )
 }
